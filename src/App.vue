@@ -9,7 +9,7 @@
   <div class="footer">
     <p>Contact</p>
     <p>Ph:(401)-965-5309</p>
-    <p><a href="https://github.com/sonu-cyber/weather-api-vue/" class="git_link">Github</a></p>
+    <p><a href="https://github.com/sonu-cyber/" class="git_link">Github</a></p>
     <span><a href="https://www.linkedin.com/in/gayathriraghuram/" class="linked_link">LinkedIn</a></span>
   </div>
 </template>
