@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Hello msg="Welcome to Your Vue.js App" />
+    <Hello msg="A Crypto currency website in Vue.js" />
   </div>
 </template>
 
@@ -15,3 +15,15 @@ export default {
   },
 };
 </script>
+<style scoped>
+
+.home {
+  display: flexbox;
+  justify-content:center;
+  flex-direction: column;
+  color:#2c3e50;
+  height:100vh;
+  width:100vh;
+  
+}
+</style>

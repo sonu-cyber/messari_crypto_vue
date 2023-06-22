@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h1>{{ msg }}</h1>
+  <div class="hello">
+    <h3>{{ msg }}</h3>
     <p>The data from the Messari Bitcoin Website</p>
     <!-- <button @click="fetchMBCP">Click Me</button> -->
 
@@ -20,7 +20,7 @@
 </template>
 <script>
 // @ is an alias to /src
-import { ref, unRef } from "vue";
+import {ref} from "vue";
 export default {
   name: "Hello",
   props: {
@@ -100,26 +100,31 @@ export default {
   margin: 0;
   padding: 0;
 }
-div.home {
-  display: flex;
+div.hello {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: green;
-}
+ 
+  }
 div.result {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(195, 137, 250);
-  border: 2px solid green;
+  max-width:100vw;
+  margin:auto;
+  border: 2px solid  #42b983;;
   border-radius: 15px;
-  margin: 20px;
+  margin-bottom: 30px;
+  transition:all 2s; 
+}
+div.result:hover{
+  transform:scale(1.1);
 }
 p {
-  color: rgb(239, 120, 120);
+  color: rgb(94, 89, 89);
   padding: 30px;
+  font-size:.8rem;
 }
+h3{
+  padding-top:25px;
+ }
 </style>
