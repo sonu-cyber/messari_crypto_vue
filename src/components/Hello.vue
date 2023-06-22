@@ -104,20 +104,23 @@ div.hello {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
-  }
+  
+   }
 div.result {
   display: flex;
   flex-direction: column;
-  max-width:100vw;
-  margin:auto;
+  justify-content: center;
+  align-content:center;
+  max-width:55vw;
+  max-height:100vh;
   border: 2px solid  #42b983;;
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin:auto;
+  margin-bottom:30px;
   transition:all 2s; 
 }
 div.result:hover{
-  transform:scale(1.1);
+  transform:scale(1.05);
 }
 p {
   color: rgb(94, 89, 89);

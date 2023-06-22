@@ -22,8 +22,7 @@ export default {
   justify-content:center;
   flex-direction: column;
   color:#2c3e50;
-  height:100vh;
-  width:100vh;
+  width:100vw;
   
-}
+  }
 </style>
